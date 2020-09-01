@@ -97,7 +97,7 @@ const tasks = [
     },
   };
 
-  let lastSelectedTheme = localStorage.getItem("app.theme") || "default";
+  let lastSelectedTheme = localStorage.getItem("app_theme") || "default";
 
   // Elements UI
   const listContainer = document.querySelector(
